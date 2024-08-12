@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'helvetica_neue_lt_std75_bold';
+    src: url('./fonts/helveticaneueltstd-bd-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-bd-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-bd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_std95_black';
+    src: url('./fonts/helveticaneueltstd-blk-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-blk-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-blk-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_std85_heavy';
+    src: url('./fonts/helveticaneueltstd-hv-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-hv-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-hv-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_std45_light';
+    src: url('./fonts/helveticaneueltstd-lt-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-lt-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-lt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_std65Md';
+    src: url('./fonts/helveticaneueltstd-md-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-md-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-md-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_std55_roman';
+    src: url('./fonts/helveticaneueltstd-roman-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-roman-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-roman-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_neue_lt_st25ultraLt';
+    src: url('./fonts/helveticaneueltstd-ultlt-webfont.woff2') format('woff2'),
+         url('./fonts/helveticaneueltstd-ultlt-webfont.woff') format('woff'),
+         url('./fonts/helveticaneueltstd-ultlt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --azul-oscuro: #233D7F;
+    --naranja: #DE5B15;
+    --azul-claro: #597EDA;
+    --gris-oscuro: #505056;
+    --gris: #7B7B7B;
+    --blanco: #FFFFFF;
+    --gris-claro: #E7E8EA;
+}
+
+body {
+    margin: 0;
+    font-family: 'helvetica_neue_lt_std55_roman';
+    background-color: var(--gris-claro);
+    height: 100vh;
+}
+
+.bg-form {
+    height: 800px;
+    background-image: url("./img/bg-form.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.form-label {
+    color: var(--azul-oscuro);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: auto;
+}
+
+.form-control {
+    font-style: oblique;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--azul-claro);
+}
+
+.btn-primary {
+    background: var(--azul-claro);
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+    background: var(--azul-oscuro);
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.btn-secondary {
+    background: var(--gris-claro);
+    border: 2px solid var(--gris);
+    border-radius: 7px;
+    color: var(--gris);
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.link {
+    color: var(--gris);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.decorador {
+    position: absolute;
+    left: -30%;
+    top: 55px;
+    z-index: 0;
+}
+.titulo-bienvenido {
+    font-family: "helvetica_neue_lt_std95_black";
+    text-transform: uppercase;
+    font-size: 32px;
+    color: var(--blanco);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.segundo-titulo b {
+    font-family: "helvetica_neue_lt_std65Md";
+    color: var(--azul-claro);
+    font-size: 20px;
+}
+
+.segundo-titulo {
+    font-family: "helvetica_neue_lt_std65Md";
+    color: var(--azul-claro);
+    font-size: 20px;
+}
+
+.label-formulario {
+    font-family: "helvetica_neue_lt_std65Md";
+}
+
+.bg-bottom {
+    background: var(--azul-oscuro);
+    height: 80px;
+    margin-top: -40px;
+}
+
+@media (max-width: 1367px) {
+    .bg-form {
+        height: 820px;
+    }
+}
+
+@media (max-width: 769px) {
+    .decorador {
+        left: -20%;
+    }
+}
+
+@media (max-width: 426px) {
+    .decorador {
+        left: -30%;
+    }
+}
+
+@media (max-width: 376px) {
+    .decorador {
+        left: -40%;
+    }
+}

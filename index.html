@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión | ContaLive</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container pt-4 pb-4">
+    <div class="row">
+      <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12">
+        <img src="./img/contalive-logo.png" alt="ContaLive Logo">
+      </div>
+      <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-12">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-12 col-sm-12">
+          <div class="card rounded-0 border-0 px-5 py-5 mt-5">
+            <div class="mb-3 mt-3">
+              <img src="./img/decorador-titulo.svg" class="decorador">
+              <div class="titulo-bienvenido">Bienvenido</div>
+            </div>
+            <p class="segundo-titulo"><b>Ingrese sus credenciales</b> para continuar</p>
+            <form>
+              <div class="mb-3">
+                <label for="rut-cliente" class="form-label label-formulario">RUT Cliente</label>
+                <input type="text" class="form-control" id="rut-cliente" aria-describedby="emailHelp"
+                  placeholder="Ej. 12345678-9">
+              </div>
+              <div class="mb-3">
+                <label for="rut-usuario" class="form-label label-formulario">RUT Usuario</label>
+                <input type="email" class="form-control" id="rut-usuario" aria-describedby="emailHelp"
+                  placeholder="Ej. 12345678-9">
+              </div>
+              <div class="mb-3">
+                <label for="contrasena" class="form-label label-formulario">Contraseña</label>
+                <input type="password" class="form-control" id="contrasena" placeholder="Ingrese su contraseña">
+              </div>
+              <div class="mb-5 d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                <button onclick="goBack()" class="btn btn-secondary">Regresar</button>
+              </div>
+              <div class="text-center mb-3">
+                <a href="#" class="link">Recuperar contraseña</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xxl-7 col-xl-7 col-lg-5 col-md-12 col-sm-12"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-bottom"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
