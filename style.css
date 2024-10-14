@@ -87,10 +87,15 @@ body {
 
 .bg-form {
     height: 800px;
-    background-image: url("./img/bg-form.png");
+    background-image: url("./img/bg-formv2.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+.bg-form:before {
+    background-color: rgba(35, 61, 127, 0.5);
+    height: 800px;
 }
 
 .form-label {
@@ -104,11 +109,11 @@ body {
     font-style: oblique;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--naranja);
 }
 
 .btn-primary {
-    background: var(--azul-claro);
+    background: var(--naranja);
     border: none;
     border-radius: 7px;
     font-weight: bold;
@@ -161,13 +166,13 @@ body {
 
 .segundo-titulo b {
     font-family: "helvetica_neue_lt_std65Md";
-    color: var(--azul-claro);
+    color: var(--naranja);
     font-size: 20px;
 }
 
 .segundo-titulo {
     font-family: "helvetica_neue_lt_std65Md";
-    color: var(--azul-claro);
+    color: var(--naranja);
     font-size: 20px;
 }
 
